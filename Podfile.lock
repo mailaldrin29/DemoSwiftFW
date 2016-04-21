@@ -1,0 +1,19 @@
+PODS:
+  - SampleFramework (0.1.3)
+
+DEPENDENCIES:
+  - SampleFramework (from `https://github.com/mailaldrin29/SampleFramework.git`)
+
+EXTERNAL SOURCES:
+  SampleFramework:
+    :git: https://github.com/mailaldrin29/SampleFramework.git
+
+CHECKOUT OPTIONS:
+  SampleFramework:
+    :commit: b1638c88240ce9d79a9a7d37dc77949b78befb6b
+    :git: https://github.com/mailaldrin29/SampleFramework.git
+
+SPEC CHECKSUMS:
+  SampleFramework: dcdb99c71dbf215d4f4529a386548e011c3bb03c
+
+COCOAPODS: 0.39.0
