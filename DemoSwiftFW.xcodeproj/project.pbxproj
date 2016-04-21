@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		947CEE6D6261822649A5C51B /* Pods_DemoSwiftFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A135BB369FEF7EDA80495524 /* Pods_DemoSwiftFW.framework */; };
-		C5184C211CC8CBDE00047AB7 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5184C201CC8CBDE00047AB7 /* Test.swift */; };
-		C56BFF0E1CC8B76600856E3C /* DemoSwiftFW.h in Headers */ = {isa = PBXBuildFile; fileRef = C56BFF0D1CC8B76600856E3C /* DemoSwiftFW.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5184C581CC8EDE900047AB7 /* DemoSwiftFW.h in Headers */ = {isa = PBXBuildFile; fileRef = C5184C561CC8EDE900047AB7 /* DemoSwiftFW.h */; };
+		C5184C591CC8EDE900047AB7 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5184C571CC8EDE900047AB7 /* Test.swift */; };
 		C56BFF151CC8B76600856E3C /* DemoSwiftFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56BFF0A1CC8B76600856E3C /* DemoSwiftFW.framework */; };
 		C56BFF1A1CC8B76600856E3C /* DemoSwiftFWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56BFF191CC8B76600856E3C /* DemoSwiftFWTests.swift */; };
 /* End PBXBuildFile section */
@@ -28,10 +28,10 @@
 		23E22F2296C4CC160CABC50C /* Pods-DemoSwiftFW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoSwiftFW.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoSwiftFW/Pods-DemoSwiftFW.release.xcconfig"; sourceTree = "<group>"; };
 		9A36BD9CB7193A58B1E375D9 /* Pods-DemoSwiftFW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoSwiftFW.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoSwiftFW/Pods-DemoSwiftFW.debug.xcconfig"; sourceTree = "<group>"; };
 		A135BB369FEF7EDA80495524 /* Pods_DemoSwiftFW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoSwiftFW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5184C201CC8CBDE00047AB7 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		C5184C561CC8EDE900047AB7 /* DemoSwiftFW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSwiftFW.h; sourceTree = "<group>"; };
+		C5184C571CC8EDE900047AB7 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		C56BFF0A1CC8B76600856E3C /* DemoSwiftFW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DemoSwiftFW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C56BFF0D1CC8B76600856E3C /* DemoSwiftFW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoSwiftFW.h; sourceTree = "<group>"; };
-		C56BFF0F1CC8B76600856E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C56BFF0F1CC8B76600856E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = DemoSwiftFW/Info.plist; sourceTree = "<group>"; };
 		C56BFF141CC8B76600856E3C /* DemoSwiftFWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoSwiftFWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C56BFF191CC8B76600856E3C /* DemoSwiftFWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSwiftFWTests.swift; sourceTree = "<group>"; };
 		C56BFF1B1CC8B76600856E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,9 +74,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C5184C551CC8EDE900047AB7 /* Classess */ = {
+			isa = PBXGroup;
+			children = (
+				C5184C561CC8EDE900047AB7 /* DemoSwiftFW.h */,
+				C5184C571CC8EDE900047AB7 /* Test.swift */,
+			);
+			path = Classess;
+			sourceTree = "<group>";
+		};
 		C56BFF001CC8B76600856E3C = {
 			isa = PBXGroup;
 			children = (
+				C56BFF0F1CC8B76600856E3C /* Info.plist */,
 				C56BFF0C1CC8B76600856E3C /* DemoSwiftFW */,
 				C56BFF181CC8B76600856E3C /* DemoSwiftFWTests */,
 				C56BFF0B1CC8B76600856E3C /* Products */,
@@ -97,9 +107,7 @@
 		C56BFF0C1CC8B76600856E3C /* DemoSwiftFW */ = {
 			isa = PBXGroup;
 			children = (
-				C56BFF0D1CC8B76600856E3C /* DemoSwiftFW.h */,
-				C5184C201CC8CBDE00047AB7 /* Test.swift */,
-				C56BFF0F1CC8B76600856E3C /* Info.plist */,
+				C5184C551CC8EDE900047AB7 /* Classess */,
 			);
 			path = DemoSwiftFW;
 			sourceTree = "<group>";
@@ -120,7 +128,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C56BFF0E1CC8B76600856E3C /* DemoSwiftFW.h in Headers */,
+				C5184C581CC8EDE900047AB7 /* DemoSwiftFW.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5184C211CC8CBDE00047AB7 /* Test.swift in Sources */,
+				C5184C591CC8EDE900047AB7 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

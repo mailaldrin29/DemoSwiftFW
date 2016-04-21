@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "DemoSwiftFW"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "DemoSwiftFW manages text validations."
 #s.license      = "MIT"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   #s.ios.deployment_target = "8.0"
 
   s.source       = { :git => "https://github.com/mailaldrin29/DemoSwiftFW.git", :tag => "#{s.version}" }
-  s.source_files  = "DemoSwiftFW/DemoSwiftFW/*.{h,swift},DemoSwiftFW/**/*.{h,m}"
+  s.source_files  = "DemoSwiftFW/Classess/*.{h,swift}"
   s.module_name = "DemoSwiftFW"
 
 
