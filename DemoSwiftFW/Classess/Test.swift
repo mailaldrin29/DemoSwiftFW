@@ -8,9 +8,9 @@
 
 import UIKit
 
-class Test: NSObject {
+public class Test: NSObject {
     let t = PWCValidation();
-    func testFunc(){
+    public func testFunc(){
         print("HI Your Inside Swift framework");
     }
 }

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		947CEE6D6261822649A5C51B /* Pods_DemoSwiftFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A135BB369FEF7EDA80495524 /* Pods_DemoSwiftFW.framework */; };
-		C5184C581CC8EDE900047AB7 /* DemoSwiftFW.h in Headers */ = {isa = PBXBuildFile; fileRef = C5184C561CC8EDE900047AB7 /* DemoSwiftFW.h */; };
+		C5184C581CC8EDE900047AB7 /* DemoSwiftFW.h in Headers */ = {isa = PBXBuildFile; fileRef = C5184C561CC8EDE900047AB7 /* DemoSwiftFW.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5184C591CC8EDE900047AB7 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5184C571CC8EDE900047AB7 /* Test.swift */; };
 		C56BFF151CC8B76600856E3C /* DemoSwiftFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56BFF0A1CC8B76600856E3C /* DemoSwiftFW.framework */; };
 		C56BFF1A1CC8B76600856E3C /* DemoSwiftFWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56BFF191CC8B76600856E3C /* DemoSwiftFWTests.swift */; };
