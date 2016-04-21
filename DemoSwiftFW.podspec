@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "DemoSwiftFW"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "DemoSwiftFW manages text validations."
 #s.license      = "MIT"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/mailaldrin29/DemoSwiftFW.git", :tag => "#{s.version}" }
   s.source_files  = "DemoSwiftFW/Classess/*.{h,swift}"
   s.module_name = "DemoSwiftFW"
-  s.dependency = "SampleFramework", '~>0.1.3'
+  s.dependency "SampleFramework", '~>0.1.3'
 
 
 end
